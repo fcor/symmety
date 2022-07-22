@@ -1,0 +1,19 @@
+.icon-about {
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  background-color: #26526D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 12px  auto;
+}
+
+.icono {
+  width: 32px;
+  height: 32px;
+}
+
+.icons-container {
+  margin-bottom: 72px;
+}
