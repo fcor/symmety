@@ -145,7 +145,7 @@
 
 							<div class="inner">
 
-								<img class="img-responsive center-block" src="assets/images/preview/slider/logo.png" alt="" />
+								<img class="img-responsive center-block" src="assets/images/preview/slider/logo2.png" alt="" />
 
 								<!--<h1>SYMMETRY LATINAMERICA</h1>-->
 
@@ -175,7 +175,7 @@
 
 							<div class="inner">
 
-								<img class="img-responsive center-block" src="assets/images/preview/slider/logo.png" alt="" />
+								<img class="img-responsive center-block" src="assets/images/preview/slider/logo2.png" alt="" />
 
 							</div>
 
@@ -279,15 +279,16 @@
 
 			<header>
 
-				<h2 data-animation="bounceIn">ACERCA DE NOSOTROS</h2>
+				<h2 data-animation="bounceIn" class="container custom-text">Impulsando la transición energética en latinoamerica</h2>
 
-				<h3 class="container text-center">Impulsando la transición energética en latinoamerica</h3>
+				<h3 class="container text-center">acerca de nosotros</h3>
 				<br>
-				<p class=" container text-center">Junto a ECOHL, vendemos energía y servicios de tratamiento de agua a usuarios finales, realizando el 100% de las inversiones, 
-					responsabilizandonos de la operación y el manteniendo de los sistemas de generación.
+				<p class=" container text-center">
+					Junto a <strong>ECOHL</strong>, vendemos energía y servicios de tratamiento de agua a usuarios finales, realizando el 100% de las inversiones, 
+					responsabilizandonos de la operación y el mantenimiento de los sistemas de generación.
 					<br>
 					<br>
-					Nuestro aliado ECOHL pertenece al Grupo HL, que gracias a sus mas de 52 años de experiencia en el diseño y montaje de plantas para la industria pesada, nos permite
+					Nuestro aliado <strong>ECOHL</strong> pertenece al Grupo HL, que gracias a sus mas de 52 años de experiencia en el diseño y montaje de plantas para la industria pesada, nos permite
 					implementar un proceso confiable en el diseño y montaje de plantas para la industria pesada.
 				</p>
 
@@ -333,45 +334,6 @@
 		</section>
 
 		<!-- /ABOUT OUR COMPANY -->
-
-
-
-		<!-- FOCUS -->
-
-		<section id="focus">
-
-
-
-			<header>
-
-				<h2 data-animation="bounceIn">ENFOQUE</h2>
-
-			</header>
-
-
-
-			<!-- content -->
-
-			<article class="container text-justify">
-
-
-
-				<!-- anout us paragraphs -->
-
-				<img alt="about us" class="img-responsive float-left" src="assets/images/preview/content/focus.png"/>
-
-
-
-			</article>
-
-
-
-		</section>
-
-		<!-- FOCUS -->
-
-
-
 
 
 		<section id="latam">
@@ -900,7 +862,7 @@
 
 			<header>
 
-				<h2 data-animation="bounceIn">NUESTROS SOCIOS</h2>
+				<h2 data-animation="bounceIn">NUESTROS ALIADOS TECNOLOGICOS</h2>
 
 			</header>
 
@@ -1235,6 +1197,18 @@
 		<script src="js/jqBootstrapValidation.js"></script>
 
     	<script src="js/contact_me.js"></script>
+
+		<script>
+			document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+			anchor.addEventListener('click', function (e) {
+				e.preventDefault();
+
+				document.querySelector(this.getAttribute('href')).scrollIntoView({
+						behavior: 'smooth'
+				});
+					});
+			});
+		</script>
 
 	</body>
 
