@@ -25,3 +25,7 @@
 .img-hero {
   width: 300px;
 }
+
+#about {
+  background-image: url("assets/images/preview/slider/green2.jpg");
+}
