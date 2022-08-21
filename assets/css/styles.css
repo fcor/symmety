@@ -15,7 +15,7 @@
 }
 
 .icons-container {
-  margin-bottom: 72px;
+  margin-bottom: 24px;
 }
 
 .custom-text {
@@ -24,4 +24,8 @@
 
 .img-hero {
   width: 300px;
+}
+
+.btn-mgn {
+  margin-bottom: 36px;
 }
